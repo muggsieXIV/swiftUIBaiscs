@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC8E30E125B5FFD70017D2C8 /* swiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E30E025B5FFD70017D2C8 /* swiftUIBasicsApp.swift */; };
-		EC8E30E325B5FFD70017D2C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E30E225B5FFD70017D2C8 /* ContentView.swift */; };
-		EC8E30E525B5FFD90017D2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8E30E425B5FFD90017D2C8 /* Assets.xcassets */; };
-		EC8E30E825B5FFD90017D2C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8E30E725B5FFD90017D2C8 /* Preview Assets.xcassets */; };
-		EC8E30F325B5FFD90017D2C8 /* swiftUIBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E30F225B5FFD90017D2C8 /* swiftUIBasicsTests.swift */; };
-		EC8E30FE25B5FFD90017D2C8 /* swiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E30FD25B5FFD90017D2C8 /* swiftUIBasicsUITests.swift */; };
+		EC8E312425B6036E0017D2C8 /* swiftUIBasics in Resources */ = {isa = PBXBuildFile; fileRef = EC8E312325B6036E0017D2C8 /* swiftUIBasics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EC8E30DD25B5FFD60017D2C8 /* swiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8E30E025B5FFD70017D2C8 /* swiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIBasicsApp.swift; sourceTree = "<group>"; };
-		EC8E30E225B5FFD70017D2C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EC8E30E425B5FFD90017D2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC8E30E725B5FFD90017D2C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EC8E30E925B5FFD90017D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC8E30EE25B5FFD90017D2C8 /* swiftUIBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUIBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8E30F225B5FFD90017D2C8 /* swiftUIBasicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIBasicsTests.swift; sourceTree = "<group>"; };
-		EC8E30F425B5FFD90017D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC8E30F925B5FFD90017D2C8 /* swiftUIBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUIBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8E30FD25B5FFD90017D2C8 /* swiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIBasicsUITests.swift; sourceTree = "<group>"; };
-		EC8E30FF25B5FFD90017D2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8E30DD25B5FFD60017D2C8 /* swiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = swiftUIBasics.app; path = "/Users/benniewalker/Desktop/Dev/iOS_apps/swiftUIBasics/build/Debug-iphoneos/swiftUIBasics.app"; sourceTree = "<absolute>"; };
+		EC8E30EE25B5FFD90017D2C8 /* swiftUIBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = swiftUIBasicsTests.xctest; path = "/Users/benniewalker/Desktop/Dev/iOS_apps/swiftUIBasics/build/Debug-iphoneos/swiftUIBasicsTests.xctest"; sourceTree = "<absolute>"; };
+		EC8E30F925B5FFD90017D2C8 /* swiftUIBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = swiftUIBasicsUITests.xctest; path = "/Users/benniewalker/Desktop/Dev/iOS_apps/swiftUIBasics/build/Debug-iphoneos/swiftUIBasicsUITests.xctest"; sourceTree = "<absolute>"; };
+		EC8E312325B6036E0017D2C8 /* swiftUIBasics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = swiftUIBasics; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,59 +62,8 @@
 		EC8E30D425B5FFD60017D2C8 = {
 			isa = PBXGroup;
 			children = (
-				EC8E30DF25B5FFD60017D2C8 /* swiftUIBasics */,
-				EC8E30F125B5FFD90017D2C8 /* swiftUIBasicsTests */,
-				EC8E30FC25B5FFD90017D2C8 /* swiftUIBasicsUITests */,
-				EC8E30DE25B5FFD60017D2C8 /* Products */,
+				EC8E312325B6036E0017D2C8 /* swiftUIBasics */,
 			);
-			sourceTree = "<group>";
-		};
-		EC8E30DE25B5FFD60017D2C8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EC8E30DD25B5FFD60017D2C8 /* swiftUIBasics.app */,
-				EC8E30EE25B5FFD90017D2C8 /* swiftUIBasicsTests.xctest */,
-				EC8E30F925B5FFD90017D2C8 /* swiftUIBasicsUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EC8E30DF25B5FFD60017D2C8 /* swiftUIBasics */ = {
-			isa = PBXGroup;
-			children = (
-				EC8E30E025B5FFD70017D2C8 /* swiftUIBasicsApp.swift */,
-				EC8E30E225B5FFD70017D2C8 /* ContentView.swift */,
-				EC8E30E425B5FFD90017D2C8 /* Assets.xcassets */,
-				EC8E30E925B5FFD90017D2C8 /* Info.plist */,
-				EC8E30E625B5FFD90017D2C8 /* Preview Content */,
-			);
-			path = swiftUIBasics;
-			sourceTree = "<group>";
-		};
-		EC8E30E625B5FFD90017D2C8 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EC8E30E725B5FFD90017D2C8 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		EC8E30F125B5FFD90017D2C8 /* swiftUIBasicsTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC8E30F225B5FFD90017D2C8 /* swiftUIBasicsTests.swift */,
-				EC8E30F425B5FFD90017D2C8 /* Info.plist */,
-			);
-			path = swiftUIBasicsTests;
-			sourceTree = "<group>";
-		};
-		EC8E30FC25B5FFD90017D2C8 /* swiftUIBasicsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EC8E30FD25B5FFD90017D2C8 /* swiftUIBasicsUITests.swift */,
-				EC8E30FF25B5FFD90017D2C8 /* Info.plist */,
-			);
-			path = swiftUIBasicsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +153,7 @@
 				Base,
 			);
 			mainGroup = EC8E30D425B5FFD60017D2C8;
-			productRefGroup = EC8E30DE25B5FFD60017D2C8 /* Products */;
+			productRefGroup = EC8E30D425B5FFD60017D2C8;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -233,8 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8E30E825B5FFD90017D2C8 /* Preview Assets.xcassets in Resources */,
-				EC8E30E525B5FFD90017D2C8 /* Assets.xcassets in Resources */,
+				EC8E312425B6036E0017D2C8 /* swiftUIBasics in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8E30E325B5FFD70017D2C8 /* ContentView.swift in Sources */,
-				EC8E30E125B5FFD70017D2C8 /* swiftUIBasicsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +201,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8E30F325B5FFD90017D2C8 /* swiftUIBasicsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8E30FE25B5FFD90017D2C8 /* swiftUIBasicsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +390,6 @@
 		EC8E310625B5FFD90017D2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M9T77Y4PZ;
@@ -481,7 +411,6 @@
 		EC8E310725B5FFD90017D2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M9T77Y4PZ;
@@ -503,7 +432,6 @@
 		EC8E310925B5FFD90017D2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M9T77Y4PZ;
 				INFOPLIST_FILE = swiftUIBasicsUITests/Info.plist;
@@ -523,7 +451,6 @@
 		EC8E310A25B5FFD90017D2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6M9T77Y4PZ;
 				INFOPLIST_FILE = swiftUIBasicsUITests/Info.plist;
